@@ -1,5 +1,6 @@
 # MDAP-EX_01-Portfolio
 ## Date:
+06-08-2025
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -49,6 +50,7 @@ Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
 index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,7 +75,7 @@ index.html
 
   <section id="home" class="section">
     <h2>Welcome!</h2>
-    <p>Hi, I'm [Your Name], a passionate Web Developer.</p>
+    <p>Hi, I'm Priyadharshini r k, a passionate Web Developer.</p>
   </section>
 
   <section id="about" class="section">
@@ -93,7 +95,7 @@ index.html
   <section id="contact" class="section">
     <h2>Contact</h2>
     <p>Email: rkpriyadharshini0420@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>GitHub: <a href="[https://github.com/rkpriyadharshini0420]" target="_blank">github.com/rkpriyaharshini0420</a></p>
   </section>
 
   <footer>
@@ -104,11 +106,8 @@ index.html
 </html>
 
 
+
 style.css
-css
-Copy
-Edit
-/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -122,7 +121,6 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Header and Navbar */
 header {
   background-color: #333;
   color: #fff;
@@ -161,7 +159,6 @@ nav {
   color: #00bcd4;
 }
 
-/* Sections */
 .section {
   padding: 4rem 2rem;
   text-align: center;
@@ -173,7 +170,6 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Projects list */
 .section ul {
   list-style: none;
   padding: 0;
@@ -183,7 +179,6 @@ nav {
   margin: 0.5rem 0;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
@@ -192,13 +187,13 @@ footer {
   margin-top: 2rem;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
     gap: 1rem;
   }
 }
+
 
 
 ## OUTPUT
