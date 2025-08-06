@@ -49,152 +49,164 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+'''
 index.html
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyadharshini R K - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <h1 class="logo">My Portfolio</h1>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <div class="logo">Priyadharshini R K</div>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="home" class="section">
-    <h2>Welcome!</h2>
-    <p>Hi, I'm Priyadharshini r k, a passionate Web Developer.</p>
-  </section>
+    <section class="hero">
+        <img src="profile-placeholder.png" alt="Profile Picture" class="profile-pic">
+        <div class="intro">
+            <h1>Hi, I’m Priyadharshini R K</h1>
+            <p class="role">Student</p>
+            <p class="email">rkpriyadharshini0420@gmail.com</p>
+        </div>
+    </section>
 
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I’m a student/aspiring developer with a passion for designing modern and responsive websites.</p>
-  </section>
+    <section id="about">
+        <h2>ABOUT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <ul>
-      <li>✔️ Portfolio Website</li>
-      <li>✔️ To-Do List App</li>
-      <li>✔️ Simple Calculator</li>
-    </ul>
-  </section>
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>To-Do List App</li>
+            <li>Simple Calculator</li>
+        </ul>
+    </section>
 
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: rkpriyadharshini0420@gmail.com</p>
-    <p>GitHub: <a href="[https://github.com/rkpriyadharshini0420]" target="_blank">github.com/rkpriyaharshini0420</a></p>
-  </section>
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Priyadharshini r k. All rights reserved.</p>
-  </footer>
+    <footer>
+        © 2025 Priyadharshini R K. All rights reserved.
+    </footer>
 
 </body>
 </html>
 
 
-
 style.css
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
+    color: #222;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
+    background-color: #0a2a51;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.nav-links a:hover {
-  color: #00bcd4;
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    background-color: #fff;
 }
 
-.section {
-  padding: 4rem 2rem;
-  text-align: center;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-  width: 80%;
-  margin: 2rem auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    object-fit: cover;
 }
 
-.section ul {
-  list-style: none;
-  padding: 0;
+.intro h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-.section li {
-  margin: 0.5rem 0;
+.role {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+}
+
+.email {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+section {
+    padding: 30px 40px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #111;
+}
+
+section ul {
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #333;
-  color: #fff;
-  margin-top: 2rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #0a2a51;
+    color: white;
 }
 
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
-
-
+'''
 
 ## OUTPUT
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ff0e4f4c-7a7d-4db3-935e-f303a3ebda09" />
