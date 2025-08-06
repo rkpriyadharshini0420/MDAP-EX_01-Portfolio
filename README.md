@@ -49,7 +49,7 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
-'''
+```
 index.html
 
 <!DOCTYPE html>
@@ -107,7 +107,8 @@ index.html
 
 </body>
 </html>
-'''
+```
+```
 
 style.css
 
@@ -206,7 +207,7 @@ footer {
     color: white;
 }
 
-'''
+```
 
 ## OUTPUT
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ff0e4f4c-7a7d-4db3-935e-f303a3ebda09" />
