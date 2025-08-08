@@ -210,9 +210,8 @@ footer {
 ```
 
 ## OUTPUT
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ff0e4f4c-7a7d-4db3-935e-f303a3ebda09" />
+<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/d6b2620a-950a-4c96-b2ac-fb411b2ec614" />
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0ed0704a-883e-4f39-8b2a-2ab2f33ad822" />
 
 
 ## RESULT
